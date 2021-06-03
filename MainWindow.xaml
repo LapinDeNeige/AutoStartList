@@ -1,0 +1,47 @@
+﻿<Window x:Class="Pro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <StackPanel Name="q">
+
+        <ListView Width="700" Height="500">
+            <StackPanel Orientation="Horizontal">
+
+                
+                
+                <StackPanel Orientation="Vertical" Name="ico">
+                    <GridViewColumnHeader>Icon</GridViewColumnHeader>
+                    
+                    
+
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Name="nam">
+                    <GridViewColumnHeader>Name</GridViewColumnHeader>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Name="path">
+                    <GridViewColumnHeader>Path</GridViewColumnHeader>
+                    
+                    
+                </StackPanel>
+                
+
+                <StackPanel Orientation="Vertical" Name="AutoType">
+                    <GridViewColumnHeader>AutostartType</GridViewColumnHeader>
+                </StackPanel>
+               
+                <StackPanel Orientation="Vertical" Name="com">
+                    <GridViewColumnHeader>Owner</GridViewColumnHeader>
+                </StackPanel>
+
+            </StackPanel>
+        </ListView>
+
+    </StackPanel>
+    
+    
+</Window>
